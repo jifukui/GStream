@@ -1,0 +1,15 @@
+# the standard variables don't make sense for an uninstalled copy
+prefix=
+exec_prefix=
+libdir=/home/jifukui/jifukuistudy/sourcecode/GStream/libs/gst/controller/.libs
+includedir=
+girdir=/home/jifukui/jifukuistudy/sourcecode/GStream/libs/gst/controller
+typelibdir=/home/jifukui/jifukuistudy/sourcecode/GStream/libs/gst/controller
+
+Name: GStreamer controller, uninstalled
+Description: Dynamic parameter control for GStreamer elements, Not Installed
+Requires: gstreamer-1.0 = 1.16.0
+Version: 1.16.0
+
+Libs: -L${libdir} -lgstcontroller-1.0
+Cflags: -I/home/jifukui/jifukuistudy/sourcecode/GStream/libs -I/home/jifukui/jifukuistudy/sourcecode/GStream/libs
